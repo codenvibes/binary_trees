@@ -45,60 +45,124 @@
 
 # Learning Objectives
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is a binary tree</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is the difference between a binary tree and a Binary Search Tree</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is the possible gain in terms of time complexity compared to linked lists</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are the depth, the height, the size of a binary tree</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What are the different traversal methods to go through a binary tree</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
 <details>
-<summary><b><a href=" "> </a></b></summary><br>
+<summary><b><a href=" "> </a>What is a complete, a full, a perfect, a balanced binary tree</b></summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
 </details>
 
 # Requirements
-<!-- Add your requirements here -->
 
-<!-- # More Info -->
+### General
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should use the `Betty` style. It will be checked using [betty-style.pl](https://github.com/alx-tools/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/alx-tools/Betty/blob/master/betty-doc.pl)
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- You are allowed to use the standard library
+- In the following examples, the `main.c` files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own `main.`c files at compilation. Our `main.c` files might be different from the one shown in the examples
+- The prototypes of all your functions should be included in your header file called `binary_trees.h`
+- Don’t forget to push your header file
+- All your header files should be include guarded
+
+### GitHub
+**There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.**
+
+# More Info
+<details>
+<summary><h3>Data structures</h3></summary>
+
+Please use the following data structures and types for binary trees. Don’t forget to include them in your header file.
+
+### Basic Binary Tree
+```c
+/**
+ * struct binary_tree_s - Binary tree node
+ *
+ * @n: Integer stored in the node
+ * @parent: Pointer to the parent node
+ * @left: Pointer to the left child node
+ * @right: Pointer to the right child node
+ */
+struct binary_tree_s
+{
+    int n;
+    struct binary_tree_s *parent;
+    struct binary_tree_s *left;
+    struct binary_tree_s *right;
+};
+
+typedef struct binary_tree_s binary_tree_t;
+```
+### Binary Search Tree
+```c
+typedef struct binary_tree_s bst_t;
+```
+### AVL Tree
+```c
+typedef struct binary_tree_s avl_t;
+```
+### Max Binary Heap
+```c
+typedef struct binary_tree_s heap_t;
+```
+**Note**: For tasks 0 to 23 (included), you have to deal with simple binary trees. They are not BSTs, thus they don’t follow any kind of rule.
+</details>
+
+<details>
+<summary><h3>Print function</h3></summary>
+
+To match the examples in the tasks, you are given [this function](https://github.com/alx-tools/0x1C.c)
+
+This function is used only for visualization purposes. You don’t have to push it to your repo. It may not be used during the correction
+</details>
+
 
 # Tasks
 <details>
 <summary>
 
-### 0. 
+### 0. New node
 `mandatory`
 
-File: []()
+File: [0-binary_tree_node.c]()
 </summary>
 
 
@@ -107,10 +171,10 @@ File: []()
 <details>
 <summary>
 
-### 1. 
+### 1. Insert left
 `mandatory`
 
-File: []()
+File: [1-binary_tree_insert_left.c]()
 </summary>
 
 
@@ -119,10 +183,10 @@ File: []()
 <details>
 <summary>
 
-### 2. 
+### 2. Insert right
 `mandatory`
 
-File: []()
+File: [2-binary_tree_insert_right.c]()
 </summary>
 
 
@@ -131,10 +195,10 @@ File: []()
 <details>
 <summary>
 
-### 3. 
+### 3. Delete
 `mandatory`
 
-File: []()
+File: [3-binary_tree_delete.c]()
 </summary>
 
 
@@ -143,10 +207,10 @@ File: []()
 <details>
 <summary>
 
-### 4. 
+### 4. Is leaf
 `mandatory`
 
-File: []()
+File: [4-binary_tree_is_leaf.c]()
 </summary>
 
 
@@ -155,10 +219,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Is root
 `mandatory`
 
-File: []()
+File: [5-binary_tree_is_root.c]()
 </summary>
 
 
@@ -167,10 +231,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. Pre-order traversal
 `mandatory`
 
-File: []()
+File: [6-binary_tree_preorder.c]()
 </summary>
 
 
@@ -179,10 +243,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. In-order traversal
 `mandatory`
 
-File: []()
+File: [7-binary_tree_inorder.c]()
 </summary>
 
 
@@ -191,10 +255,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Post-order traversal
 `mandatory`
 
-File: []()
+File: [8-binary_tree_postorder.c]()
 </summary>
 
 
@@ -203,10 +267,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Height
 `mandatory`
 
-File: []()
+File: [9-binary_tree_height.c]()
 </summary>
 
 
@@ -215,10 +279,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. Depth
 `mandatory`
 
-File: []()
+File: [10-binary_tree_depth.c]()
 </summary>
 
 
@@ -227,10 +291,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Size
 `mandatory`
 
-File: []()
+File: [11-binary_tree_size.c]()
 </summary>
 
 
@@ -239,10 +303,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. Leaves
 `mandatory`
 
-File: []()
+File: [12-binary_tree_leaves.c]()
 </summary>
 
 
@@ -251,10 +315,10 @@ File: []()
 <details>
 <summary>
 
-### 13. 
+### 13. Nodes
 `mandatory`
 
-File: []()
+File: [13-binary_tree_nodes.c]()
 </summary>
 
 
@@ -263,10 +327,10 @@ File: []()
 <details>
 <summary>
 
-### 14. 
+### 14. Balance factor
 `mandatory`
 
-File: []()
+File: [14-binary_tree_balance.c]()
 </summary>
 
 
@@ -275,10 +339,10 @@ File: []()
 <details>
 <summary>
 
-### 15. 
+### 15. Is full
 `mandatory`
 
-File: []()
+File: [15-binary_tree_is_full.c]()
 </summary>
 
 
@@ -287,10 +351,10 @@ File: []()
 <details>
 <summary>
 
-### 16. 
+### 16. Is perfect
 `mandatory`
 
-File: []()
+File: [16-binary_tree_is_perfect.c]()
 </summary>
 
 
@@ -299,10 +363,10 @@ File: []()
 <details>
 <summary>
 
-### 17. 
+### 17. Sibling
 `mandatory`
 
-File: []()
+File: [17-binary_tree_sibling.c]()
 </summary>
 
 
@@ -311,10 +375,10 @@ File: []()
 <details>
 <summary>
 
-### 18. 
+### 18. Uncle
 `mandatory`
 
-File: []()
+File: [18-binary_tree_uncle.c]()
 </summary>
 
 
