@@ -387,10 +387,10 @@ File: [18-binary_tree_uncle.c]()
 <details>
 <summary>
 
-### 19. 
+### 19. Lowest common ancestor
 `#advanced`
 
-File: []()
+File: [100-binary_trees_ancestor.c]()
 </summary>
 
 
@@ -399,10 +399,10 @@ File: []()
 <details>
 <summary>
 
-### 20. 
+### 20. Level-order traversal
 `#advanced`
 
-File: []()
+File: [101-binary_tree_levelorder.c]()
 </summary>
 
 
@@ -411,10 +411,10 @@ File: []()
 <details>
 <summary>
 
-### 21. 
+### 21. Is complete
 `#advanced`
 
-File: []()
+File: [102-binary_tree_is_complete.c]()
 </summary>
 
 
@@ -423,10 +423,10 @@ File: []()
 <details>
 <summary>
 
-### 22. 
+### 22. Rotate left
 `#advanced`
 
-File: []()
+File: [103-binary_tree_rotate_left.c]()
 </summary>
 
 
@@ -435,10 +435,10 @@ File: []()
 <details>
 <summary>
 
-### 23. 
+### 23. Rotate right
 `#advanced`
 
-File: []()
+File: [104-binary_tree_rotate_right.c]()
 </summary>
 
 
@@ -447,10 +447,10 @@ File: []()
 <details>
 <summary>
 
-### 24. 
+### 24. Is BST
 `#advanced`
 
-File: []()
+File: [110-binary_tree_is_bst.c]()
 </summary>
 
 
@@ -459,10 +459,10 @@ File: []()
 <details>
 <summary>
 
-### 25. 
+### 25. BST - Insert
 `#advanced`
 
-File: []()
+File: [111-bst_insert.c](), [0-binary_tree_node.c]()
 </summary>
 
 
@@ -471,10 +471,10 @@ File: []()
 <details>
 <summary>
 
-### 26. 
+### 26. BST - Array to BST
 `#advanced`
 
-File: []()
+File: [112-array_to_bst.c](), [111-bst_insert.c](), [0-binary_tree_node.c]()
 </summary>
 
 
@@ -483,10 +483,10 @@ File: []()
 <details>
 <summary>
 
-### 27. 
+### 27. BST - Search
 `#advanced`
 
-File: []()
+File: [113-bst_search.c]()
 </summary>
 
 
@@ -495,10 +495,10 @@ File: []()
 <details>
 <summary>
 
-### 28. 
+### 28. BST - Remove
 `#advanced`
 
-File: []()
+File: [114-bst_remove.c]()
 </summary>
 
 
@@ -507,10 +507,10 @@ File: []()
 <details>
 <summary>
 
-### 29. 
+### 29. Big O #BST
 `#advanced`
 
-File: []()
+File: [115-O]()
 </summary>
 
 
@@ -519,10 +519,10 @@ File: []()
 <details>
 <summary>
 
-### 30. 
+### 30. Is AVL
 `#advanced`
 
-File: []()
+File: [120-binary_tree_is_avl.c]()
 </summary>
 
 
@@ -531,10 +531,10 @@ File: []()
 <details>
 <summary>
 
-### 31. 
+### 31. AVL - Insert
 `#advanced`
 
-File: []()
+File: [121-avl_insert.c](), [14-binary_tree_balance.c](), [103-binary_tree_rotate_left.c](), [104-binary_tree_rotate_right.c](), [0-binary_tree_node.c]()
 </summary>
 
 
@@ -543,10 +543,10 @@ File: []()
 <details>
 <summary>
 
-### 32. 
+### 32. AVL - Array to AVL
 `#advanced`
 
-File: []()
+File: [122-array_to_avl.c](), [121-avl_insert.c](), [0-binary_tree_node.c](), [103-binary_tree_rotate_left.c](), [104-binary_tree_rotate_right.c](), [14-binary_tree_balance.c]()
 </summary>
 
 
@@ -555,10 +555,10 @@ File: []()
 <details>
 <summary>
 
-### 33. 
+### 33. AVL - Remove
 `#advanced`
 
-File: []()
+File: [123-avl_remove.c](), [14-binary_tree_balance.c](), [103-binary_tree_rotate_left.c](), [104-binary_tree_rotate_right.c]()
 </summary>
 
 
@@ -567,10 +567,10 @@ File: []()
 <details>
 <summary>
 
-### 34. 
+### 34. AVL - From sorted array
 `#advanced`
 
-File: []()
+File: [124-sorted_array_to_avl.c](), [0-binary_tree_node.c]()
 </summary>
 
 
@@ -579,10 +579,10 @@ File: []()
 <details>
 <summary>
 
-### 35. 
+### 35. Big O #AVL Tree
 `#advanced`
 
-File: []()
+File: [125-O]()
 </summary>
 
 
@@ -591,10 +591,10 @@ File: []()
 <details>
 <summary>
 
-### 36. 
+### 36. Is Binary heap
 `#advanced`
 
-File: []()
+File: [130-binary_tree_is_heap.c]()
 </summary>
 
 
@@ -603,10 +603,10 @@ File: []()
 <details>
 <summary>
 
-### 37. 
+### 37. Heap - Insert
 `#advanced`
 
-File: []()
+File: [131-heap_insert.c](), [0-binary_tree_node.c]()
 </summary>
 
 
@@ -615,10 +615,10 @@ File: []()
 <details>
 <summary>
 
-### 38. 
+### 38. Heap - Array to Binary Heap
 `#advanced`
 
-File: []()
+File: [132-array_to_heap.c](), [131-heap_insert.c](), [0-binary_tree_node.c]()
 </summary>
 
 
@@ -627,10 +627,10 @@ File: []()
 <details>
 <summary>
 
-### 39. 
+### 39. Heap - Extract
 `#advanced`
 
-File: []()
+File: [133-heap_extract.c]()
 </summary>
 
 
@@ -639,10 +639,10 @@ File: []()
 <details>
 <summary>
 
-### 40. 
+### 40. Heap - Sort
 `#advanced`
 
-File: []()
+File: [134-heap_to_sorted_array.c](), [133-heap_extract.c]()
 </summary>
 
 
@@ -651,10 +651,10 @@ File: []()
 <details>
 <summary>
 
-### 41. 
+### 41. Big O #Binary Heap
 `#advanced`
 
-File: []()
+File: [135-O]()
 </summary>
 
 
