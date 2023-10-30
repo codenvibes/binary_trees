@@ -5,7 +5,7 @@
 
 # Resources
 <details>
-<summary><b><a href="https://en.wikipedia.org/wiki/Binary_tree">Binary tree</a> (note the first line: <code>Not to be confused with B-tree.</code>)</b></summary><br>
+<summary><b><a href="https://en.wikipedia.org/wiki/Binary_tree">Binary tree</a></b> (note the first line: <code>Not to be confused with B-tree.</code>)</summary><br>
 
 
 <br><p align="center">※※※※※※※※※※※※</p><br>
