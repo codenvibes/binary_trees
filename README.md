@@ -1,5 +1,5 @@
 <h1 align="center"><b>0x1D. C - BINARY TREES</b></h1>
-<div align="center"><code></code> <code></code> <code></code> <code></code></div>
+<div align="center"><code>C</code> <code>Group project</code> <code>Algorithm</code> <code>Data structure</code></div>
 
 <!-- # Background Context -->
 
